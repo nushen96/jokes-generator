@@ -1,13 +1,102 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body {
+  height: 100%;
+  width: 100%;
 }
+
+.root-container {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.main-title {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  font-weight: 300;
+  font-size: 300%;
+}
+
+button {
+  background-color: #764BA2;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-left: 5%;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #5C3A7E;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+button:hover,
+button:active {
+  background-color: #5C3A7E;
+}
+
+.actions-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions-row select {
+  background-color: #f6f2ff;
+  outline: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 20%;
+  height: 3rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.joke-container {
+  margin: 3rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  padding: 2rem;
+  border-radius: 10px;
+  min-height: 5rem;
+  background-color: #f1ebff;
+  color: #5C3A7E;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.joke-container .joke {
+  text-align: center;
+  font-style: italic;
+  font-size: 400;
+}
+
