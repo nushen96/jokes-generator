@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import Joke from "./components/Joke";
 import React, { useState, useEffect } from "react";
+import Button from './components/Button'
 
 function App() {
   // Jokes API: http://www.icndb.com/api/
@@ -41,7 +42,7 @@ function App() {
           <option value="nerdy">Nerdy</option>
           <option value="explicit">Explicit</option>
         </select>
-        <button onClick={(e) => fetchJoke(category)}>Make me laugh! 😂</button>
+        <Button onClick={(e) => fetchJoke(category)}>Make me laugh! 😂</Button>
       </div>
       <div className="row">
         <Joke

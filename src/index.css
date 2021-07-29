@@ -36,26 +36,7 @@ body {
   font-size: 300%;
 }
 
-button {
-  background-color: #764BA2;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-left: 5%;
-  outline: none;
-  cursor: pointer;
-  border: 1px solid #5C3A7E;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-}
 
-button:hover,
-button:active {
-  background-color: #5C3A7E;
-}
 
 .actions-row {
   display: flex;
